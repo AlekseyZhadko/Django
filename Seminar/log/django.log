@@ -10,3 +10,114 @@ INFO 2023-09-29 02:35:19,372 autoreload 6597 8539431040 /Users/aleksey/Desktop/D
 INFO 2023-09-29 02:35:19,734 autoreload 6714 8539431040 Watching for file changes with StatReloader
 INFO 2023-09-29 02:39:25,364 autoreload 6714 8539431040 /Users/aleksey/Desktop/Django/Seminar/myproject/settings.py changed, reloading.
 INFO 2023-09-29 02:39:25,720 autoreload 6988 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 05:32:03,198 autoreload 16380 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 05:32:20,257 autoreload 16406 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 05:32:22,841 basehttp 16406 6165524480 "GET / HTTP/1.1" 200 13
+INFO 2023-09-29 05:32:34,428 views 16406 6165524480 Result: Сторона: reshka, время: 2023-09-29 05:32:34.423478+00:00
+INFO 2023-09-29 05:32:34,432 basehttp 16406 6165524480 "GET /eagle/ HTTP/1.1" 200 68
+INFO 2023-09-29 05:32:44,189 views 16406 6165524480 Result: Сторона: reshka, время: 2023-09-29 05:32:44.187546+00:00
+INFO 2023-09-29 05:32:44,190 basehttp 16406 6165524480 "GET /eagle/ HTTP/1.1" 200 68
+INFO 2023-09-29 05:32:47,406 views 16406 6165524480 Result: Сторона: reshka, время: 2023-09-29 05:32:47.404387+00:00
+INFO 2023-09-29 05:32:47,407 basehttp 16406 6165524480 "GET /eagle/ HTTP/1.1" 200 68
+INFO 2023-09-29 05:33:49,113 autoreload 16406 8539431040 /Users/aleksey/Desktop/Django/Seminar/games_app/views.py changed, reloading.
+INFO 2023-09-29 05:33:49,459 autoreload 16541 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 05:33:58,728 autoreload 16541 8539431040 /Users/aleksey/Desktop/Django/Seminar/games_app/views.py changed, reloading.
+INFO 2023-09-29 05:33:59,040 autoreload 16561 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 05:34:02,712 views 16561 6191394816 Result: Сторона: reshka, время: 2023-09-29 05:34:02.709348+00:00
+INFO 2023-09-29 05:34:02,713 basehttp 16561 6191394816 "GET /eagle/ HTTP/1.1" 200 68
+INFO 2023-09-29 05:34:05,818 views 16561 6191394816 Result: Сторона: orel, время: 2023-09-29 05:34:05.815302+00:00
+INFO 2023-09-29 05:34:05,819 basehttp 16561 6191394816 "GET /eagle/ HTTP/1.1" 200 66
+INFO 2023-09-29 06:18:09,666 autoreload 19845 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:19:20,656 autoreload 19845 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:19:20,962 autoreload 19925 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:19:33,147 autoreload 19925 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:19:33,393 autoreload 19951 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:19:55,369 autoreload 19976 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:20:13,164 autoreload 20004 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:20:15,188 basehttp 20004 6201470976 "GET / HTTP/1.1" 200 13
+INFO 2023-09-29 06:20:19,069 basehttp 20004 6201470976 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-29 06:20:25,221 log 20004 6201470976 Not Found: /show_elements
+WARNING 2023-09-29 06:20:25,222 basehttp 20004 6201470976 "GET /show_elements HTTP/1.1" 404 2992
+INFO 2023-09-29 06:20:54,061 basehttp 20004 6201470976 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-29 06:20:54,687 log 20004 6201470976 Not Found: /show_elements
+WARNING 2023-09-29 06:20:54,688 basehttp 20004 6201470976 "GET /show_elements HTTP/1.1" 404 2992
+INFO 2023-09-29 06:21:26,948 basehttp 20004 6201470976 "GET /show_elements/3 HTTP/1.1" 301 0
+INFO 2023-09-29 06:21:26,962 basehttp 20004 6201470976 "GET /show_elements/3/ HTTP/1.1" 200 232
+INFO 2023-09-29 06:23:09,396 autoreload 20004 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:23:09,677 autoreload 20204 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:23:44,328 autoreload 20204 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:23:44,661 autoreload 20244 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:26:31,326 basehttp 20244 6200799232 "GET / HTTP/1.1" 200 13
+INFO 2023-09-29 06:26:31,604 autoreload 20244 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:26:31,885 autoreload 20429 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:26:39,186 basehttp 20429 6171570176 "GET /show_elements/3/ HTTP/1.1" 200 214
+INFO 2023-09-29 06:27:55,493 autoreload 20429 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:27:55,772 autoreload 20520 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:28:01,960 basehttp 20520 6137294848 "GET /show_elements/3/ HTTP/1.1" 200 226
+INFO 2023-09-29 06:29:17,395 autoreload 20520 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:29:17,688 autoreload 20628 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:29:23,563 basehttp 20628 6155726848 "GET /show_elements/3/ HTTP/1.1" 200 226
+INFO 2023-09-29 06:32:00,021 basehttp 20628 6155726848 "GET /show_elements/3/ HTTP/1.1" 200 226
+INFO 2023-09-29 06:36:04,076 autoreload 20628 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:36:04,377 autoreload 21029 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:36:40,011 autoreload 21029 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:36:40,291 autoreload 21083 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:36:48,597 basehttp 21083 6132297728 "GET /show_elements/3/ HTTP/1.1" 200 412
+INFO 2023-09-29 06:37:22,317 autoreload 21083 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:37:22,674 autoreload 21130 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:37:26,278 basehttp 21130 6166245376 "GET /show_elements/3/ HTTP/1.1" 200 403
+INFO 2023-09-29 06:37:59,534 autoreload 21130 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:37:59,841 autoreload 21170 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:38:08,570 basehttp 21170 6203273216 "GET /show_elements/3/ HTTP/1.1" 200 404
+INFO 2023-09-29 06:47:48,648 autoreload 21170 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:47:48,935 autoreload 21795 8539431040 Watching for file changes with StatReloader
+ERROR 2023-09-29 06:47:56,611 log 21795 6168129536 Internal Server Error: /show_elements/3/
+Traceback (most recent call last):
+  File "/Users/aleksey/Desktop/Django/Seminar/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/games_app/views.py", line 23, in show_elements
+    return HttpResponse(f'{Coin.counter(n)}')
+                           ^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/myapp2/models.py", line 16, in counter
+    coins = Coin.objects.all()[-n:]
+            ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/venv/lib/python3.11/site-packages/django/db/models/query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-29 06:47:56,613 basehttp 21795 6168129536 "GET /show_elements/3/ HTTP/1.1" 500 66875
+INFO 2023-09-29 06:49:18,695 autoreload 21795 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:49:18,968 autoreload 21898 8539431040 Watching for file changes with StatReloader
+ERROR 2023-09-29 06:49:26,002 log 21898 6134689792 Internal Server Error: /show_elements/3/
+Traceback (most recent call last):
+  File "/Users/aleksey/Desktop/Django/Seminar/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/games_app/views.py", line 23, in show_elements
+    return HttpResponse(f'{Coin.counter(n)}')
+                           ^^^^^^^^^^^^^^^
+  File "/Users/aleksey/Desktop/Django/Seminar/myapp2/models.py", line 19, in counter
+    if coin.is_eagle == 'orel':
+       ^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'is_eagle'
+ERROR 2023-09-29 06:49:26,003 basehttp 21898 6134689792 "GET /show_elements/3/ HTTP/1.1" 500 64030
+INFO 2023-09-29 06:50:14,011 autoreload 21898 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:50:14,334 autoreload 21964 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:51:15,577 autoreload 21964 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:51:15,930 autoreload 22038 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:51:19,145 basehttp 22038 6197555200 "GET /show_elements/3/ HTTP/1.1" 200 24
+INFO 2023-09-29 06:53:50,854 autoreload 22038 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 06:53:51,127 autoreload 22206 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 06:53:57,206 basehttp 22206 6159396864 "GET /show_elements/3/ HTTP/1.1" 200 24
+INFO 2023-09-29 07:00:19,190 autoreload 22206 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 07:00:19,523 autoreload 22607 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 07:02:14,631 autoreload 22607 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 07:02:14,921 autoreload 22737 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 07:02:18,087 autoreload 22737 8539431040 /Users/aleksey/Desktop/Django/Seminar/myapp2/models.py changed, reloading.
+INFO 2023-09-29 07:02:18,250 autoreload 22750 8539431040 Watching for file changes with StatReloader
