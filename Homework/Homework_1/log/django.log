@@ -1,0 +1,9 @@
+INFO 2023-09-29 03:02:00,318 autoreload 9226 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 03:02:14,626 autoreload 9226 8539431040 /Users/aleksey/Desktop/Django/Homework/Homework_1/myapp/views.py changed, reloading.
+INFO 2023-09-29 03:02:14,931 autoreload 9256 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 03:02:17,016 views 9256 6191050752 Result: home page access!
+INFO 2023-09-29 03:02:17,016 basehttp 9256 6191050752 "GET / HTTP/1.1" 200 13
+INFO 2023-09-29 03:02:24,835 views 9256 6191050752 Result: about page access
+INFO 2023-09-29 03:02:24,837 basehttp 9256 6191050752 "GET /about HTTP/1.1" 200 238
+INFO 2023-09-29 03:03:20,201 autoreload 9256 8539431040 /Users/aleksey/Desktop/Django/Homework/Homework_1/myapp/views.py changed, reloading.
+INFO 2023-09-29 03:03:20,592 autoreload 9342 8539431040 Watching for file changes with StatReloader

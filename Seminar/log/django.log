@@ -1,0 +1,12 @@
+INFO 2023-09-29 02:27:44,052 autoreload 6197 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 02:27:48,349 basehttp 6197 6126907392 "GET / HTTP/1.1" 200 13
+INFO 2023-09-29 02:29:27,978 autoreload 6197 8539431040 /Users/aleksey/Desktop/Django/Seminar/myproject/settings.py changed, reloading.
+INFO 2023-09-29 02:29:28,342 autoreload 6322 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 02:32:26,651 autoreload 6322 8539431040 /Users/aleksey/Desktop/Django/Seminar/myproject/settings.py changed, reloading.
+INFO 2023-09-29 02:32:26,993 autoreload 6506 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 02:33:43,399 autoreload 6506 8539431040 /Users/aleksey/Desktop/Django/Seminar/games_app/views.py changed, reloading.
+INFO 2023-09-29 02:33:43,756 autoreload 6597 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 02:35:19,372 autoreload 6597 8539431040 /Users/aleksey/Desktop/Django/Seminar/games_app/views.py changed, reloading.
+INFO 2023-09-29 02:35:19,734 autoreload 6714 8539431040 Watching for file changes with StatReloader
+INFO 2023-09-29 02:39:25,364 autoreload 6714 8539431040 /Users/aleksey/Desktop/Django/Seminar/myproject/settings.py changed, reloading.
+INFO 2023-09-29 02:39:25,720 autoreload 6988 8539431040 Watching for file changes with StatReloader
