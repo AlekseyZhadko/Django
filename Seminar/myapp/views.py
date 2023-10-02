@@ -1,6 +1,23 @@
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
+
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Hello, world!')
+    context = {
+        'title': 'Home'
+    }
+    logger.info(f'Result: home page access!')
+    return render(request, 'myapp/index.html', context=context)
+
+
+def about(request):
+    context = {
+        'title': 'About'
+    }
+    logger.info(f'Result: about page access')
+    return render(request, 'myapp/about.html', context=context)

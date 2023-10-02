@@ -20,20 +20,29 @@ class Command(BaseCommand):
                             email=f'mail{i}@mail.ru',
                             phone_number=f'8800293{i}',
                             address=f'address{i}',
-                            date_registration=datetime.date(1997, 10, 19), )
+                            date_registration=datetime.date(random.randint(2010, 2023),
+                                                            random.randint(1, 12),
+                                                            random.randint(1, 30)), )
             client.save()
             for j in range(1, count + 1):
                 product = Product(name=f'name{j}',
                                   description=f'Text from # {j} is bla bla bla many long text',
-                                  price=122.22 + j,
-                                  count=random.randint(1, 200),
-                                  date_add=datetime.date(2023, 10, 19), )
+                                  price=random.randint(1, 10000) + random.randint(1, 100) / 100,
+                                  count=random.randint(500, 2000),
+                                  date_add=datetime.date(random.randint(2010, 2023),
+                                                         random.randint(1, 12),
+                                                         random.randint(1, 30)), )
                 product.save()
                 for k in range(1, count + 1):
                     products_all = Product.objects.all()
                     order = Order(client_id=client,
-                                  sum=12131.12, )
+                                  sum=0)
                     order.save()
+                    sum_order = 0
                     for _ in range(1, 10):
-                        order.products.add(products_all[random.randint(1, len(products_all) - 1)])
-                order.save()
+                        product_order = products_all[random.randint(1, len(products_all) - 1)]
+                        product_order.count -= 1
+                        sum_order += product_order.price
+                        order.products.add(product_order)
+                    order.sum = sum_order
+                    order.save()

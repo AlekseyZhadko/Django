@@ -53,3 +53,11 @@ class Article(models.Model):
                 f'views: {self.views},'
                 f'publish: {self.publish}'
                 )
+
+
+class Comment(models.Model):
+    author_id = models.ForeignKey(Author, on_delete=models.CASCADE)
+    article_id = models.ForeignKey(Article, on_delete=models.CASCADE)
+    description = models.CharField(max_length=300)
+    create_at = models.DateTimeField(auto_now_add=True)
+    change_at = models.DateTimeField(auto_now_add=True)

@@ -10,13 +10,20 @@ logger = logging.getLogger(__name__)
 
 
 # Create your views here.
-def eagle(request):
+def eagle(request, count: int):
     game_list = ['orel', 'reshka']
-    response = random.choice(game_list)
-    coin = Coin(is_eagle=response)
-    coin.save()
-    logger.info(f'Result: {coin}')
-    return HttpResponse(coin)
+    result = []
+    for i in range(count + 1):
+        response = random.choice(game_list)
+        result.append(response)
+
+    context = {
+        'result': result
+    }
+    # coin = Coin(is_eagle=response)
+    # coin.save()
+    # logger.info(f'Result: {coin}')
+    return render(request, 'myapp/index.html', context=context)
 
 
 def show_elements(request, n: int):

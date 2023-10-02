@@ -1,0 +1,35 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+
+
+<table>
+    {% for item in orders %}
+    <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.id}}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            name: {{ item.client_id.name}}<br>
+            email: {{ item.client_id.email}}<br>
+            phone_number: {{ item.client_id.phone_number}}<br>
+            address: {{ item.client_id.address}}<br>
+            date_registration: {{ item.client_id.date_registration}}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {% for product in item.products.all %}
+            {{ product.name }} {{ product.description }} {{ product.price }}<br>
+            {% endfor %}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            sum: {{ item.sum}}<br>
+            date: {{ item.date}}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
