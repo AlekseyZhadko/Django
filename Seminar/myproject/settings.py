@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp',
     'games_app',
     'myapp2',
 ]
@@ -149,7 +148,7 @@ LOGGING = {
             'level': 'INFO',
         },
 
-        'myapp': {
+        'games_app': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

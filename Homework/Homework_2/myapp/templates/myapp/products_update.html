@@ -1,0 +1,50 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+
+
+<table>
+    <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black; padding: .3em 1em; ">id</td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">name</td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">description</td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">price</td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">count</td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">image</td>
+    </tr>
+    {% for item in products %}
+    <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.id }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.name }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.description }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.price }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.count }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.image }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Udpate product">
+</form>
+
+{% endblock %}

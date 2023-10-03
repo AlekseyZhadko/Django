@@ -1,0 +1,32 @@
+{% extends 'myapp2/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<h1>Home page</h1>
+
+
+<table>
+    {% for item in articles %}
+    <tr>
+        {% if item.publish %}
+        <td><a href="{% url 'detail_articles' item.id %}">{{ item.title }}</a></td>
+        <td>{{ item.description }}</td>
+        {% else %}
+        <td> {{ item.title }}</td>
+        <td> {{ item.description }}</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+
+
+<p>{{ item.title }}</p>
+
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et ut tenetur recusandae minima.
+    Quibusdam numquam dolore omnis dicta eum voluptas, vel error dolorum odio cumque eveniet quod? Architecto,
+    deleniti.</p>
+{% endblock %}

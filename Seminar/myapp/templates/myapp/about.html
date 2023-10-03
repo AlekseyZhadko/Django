@@ -1,0 +1,33 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<h1>About page</h1>
+
+<h1>{{ articles.title }}</h1>
+<p>{{ articles.id }}</p>
+<p>{{ articles.category }}</p>
+<p>{{ articles.description }}</p>
+<p>{{ articles.views }}</p>
+
+
+<table>
+    {% for item in comments %}
+    <tr>
+        <td> {{ item.author_id.firstname}}</td>
+        <td> {{ item.author_id.lastname}}</td>
+
+        <td> {{ item.description }}</td>
+        <td> {{ item.create_at }}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et ut tenetur recusandae minima.
+    Quibusdam numquam dolore omnis dicta eum voluptas, vel error dolorum odio cumque eveniet quod? Architecto,
+    deleniti.
+    {% endblock %}

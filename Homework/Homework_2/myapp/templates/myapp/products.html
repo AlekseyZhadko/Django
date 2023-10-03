@@ -1,0 +1,26 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+
+
+<table>
+    {% for item in products %}
+    <tr style="border: 1px solid black;">
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            {{ item.id }}
+        </td>
+        <td style="border: 1px solid black; padding: .3em 1em; ">
+            name: {{ item.name }}<br>
+            description: {{ item.description }}<br>
+            price {{ item.price }}<br>
+            count {{ item.count }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

@@ -23,11 +23,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="e0bfb29c-b89d-4365-98af-ec490a5c0574" object-ref="schemas/main/tables/myapp2_article" />
-      <object connection-id="e0bfb29c-b89d-4365-98af-ec490a5c0574" object-ref="schemas/main/tables/myapp2_author" />
-      <object connection-id="e0bfb29c-b89d-4365-98af-ec490a5c0574" object-ref="schemas/main/tables/myapp2_comment" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="e0bfb29c-b89d-4365-98af-ec490a5c0574" dataset="main.myapp2_article" active-filter-id="EMPTY_FILTER" />
@@ -152,7 +148,7 @@
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.41" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />

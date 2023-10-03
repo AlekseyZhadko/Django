@@ -12,7 +12,7 @@ def index(request):
         'title': 'Home'
     }
     logger.info(f'Result: home page access!')
-    return render(request, 'myapp/index.html', context=context)
+    return render(request, 'games_app/index.html', context=context)
 
 
 def about(request):
@@ -20,4 +20,4 @@ def about(request):
         'title': 'About'
     }
     logger.info(f'Result: about page access')
-    return render(request, 'myapp/about.html', context=context)
+    return render(request, 'games_app/about.html', context=context)
